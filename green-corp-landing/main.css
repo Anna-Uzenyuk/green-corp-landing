@@ -296,3 +296,16 @@ font-weight:600;
       flex-direction: column;
   }
 }
+.animate__animated{
+animation-duration: 2s;
+animation-iteration-count: 1;
+transition-duration: 2s;
+}
+@keyframes animate__animated{
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
